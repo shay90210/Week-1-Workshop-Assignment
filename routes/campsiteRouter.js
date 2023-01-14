@@ -1,7 +1,5 @@
 const express = require('express');
 const campsiteRouter = express.Router();
-const app = express();
-app.use(express.json());
 
 campsiteRouter.route('/')
 .all((req, res, next) => {
